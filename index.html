@@ -8,6 +8,7 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, height=device-height" />
     <link rel="stylesheet" href="/css/bootstrap.css" />
     <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/sweetalert.css" />
     
 ​
   </head>
@@ -26,14 +27,14 @@
                       <div class="col-xs-12">         
 
 
-                       <input type="text" name="Nombre" placeholder = "Nombre..." class="inputForm input-margin">
+                       <input id="nameInput" type="text" name="Nombre" placeholder = "Nombre..." class="inputForm input-margi">
                       </div>
                       
                     </div>
                     <div class ="row ">
                       <div class="col-xs-12">              
 
-                        <input type="email" name="Correo" placeholder = "Correo..." class="inputForm input-margin">
+                        <input id="emailInput" type="email" name="Correo" placeholder = "Correo..." class="inputForm input-margin">
                       </div>
                       
                     </div>
@@ -43,14 +44,14 @@
               
 
 
-                        <textarea placeholder="Mensaje..." cols="30" rows="5" class="textarea input-margin"></textarea>
+                        <textarea id ="msjInput"placeholder="Mensaje..." cols="30" rows="5" class="textarea input-margin"></textarea>
                       </div>
                       
                     </div>
 
                     <div class ="row ">
                       <div class="col-xs-12 center-align " >
-                                <input type="Submit" class="button btn input-margin" value="Enviar" >
+                                <input id ="buttonInput"type="Submit" class="button btn input-margin" value="Enviar" >
                       </div>
                       
                     </div>
@@ -64,6 +65,7 @@
  
     <!-- /Main App Container -->
   </body>
+  <script type="text/javascript" src="/js/sweetalert.min.js"></script>
   <script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
   <script type="text/javascript" src="/js/bootstrap.js"></script>
   <script type="text/javascript" src="/js/main.js"></script>
